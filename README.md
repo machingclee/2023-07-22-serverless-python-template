@@ -1,2 +1,2 @@
 # serverless-python-template
-server flask application
+serverless flask application
