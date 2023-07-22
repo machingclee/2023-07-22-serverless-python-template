@@ -1,5 +1,4 @@
 - (for conda) To include new dependency, we simply `pip install <the_dependecy_name> && pip freeze > requirements.txt`.
 - `sls wsgi serve` to start locally
-- select desired layer in [here](https://github.com/keithrozario/Klayers/tree/master/deployments/python3.8). Sometimes lambda does not understand how to handle compiled library that we upload (due to OS difference).
 - `sls plugin install -n serverless-wsgi`
 - `sls plugin install -n serverless-python-requirements`
